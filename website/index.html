@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        
+        <!-- Latest compiled and minified CSS -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    	<!-- jQuery library -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    	<!-- Latest compiled JavaScript -->
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    	
+    	<!-- link font awesome -->
+    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    
+    	<!-- link google font -->
+    	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    
+    	<link rel="stylesheet" href="css/index.css">
+        
+        <script src="include/js/action_listener.js"></script>
+        <script src="modules/collection_website/js_action/collection_website_show_navbar_page.js"></script>
+        <script src="modules/collection_website/js_action/collection_website_show_home_page.js"></script>
+        
+        <meta charset="UTF-8">
+    </head>
+    <body onload="(new collection_website_show_navbar_page('collection_website','show_navbar_page','app')).run();
+                  (new collection_website_show_home_page('collection_website','show_home_page','app-right')).run()">
+        <div id="app" class="row"></div>
+    </body>
+        
+</html>

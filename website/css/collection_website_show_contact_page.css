@@ -1,0 +1,162 @@
+i.material-icons 
+{
+	font-size: 24px;
+	color: white;
+	position: relative;
+	border-radius: 50%;
+	padding: 20px;
+	margin: 53px;
+}
+
+
+i.material-icons
+{
+	background-color: gray;
+}
+
+.type_1:hover 
+{
+	color: #fff;
+	background-color: #3a559f;
+}
+
+.type_2:hover 
+{
+	color: #fff;
+	background-color: #01c301;
+}
+
+.type_3:hover 
+{
+	color: #fff;
+	background-color: #2daae1;
+}
+
+@media (min-width:601px) 
+{
+	i.material-icons 
+	{
+		padding:25px;
+		margin:55px;
+		font-size:32px;
+	}
+}
+
+@media (min-width:993px) 
+{
+	i.material-icons 
+	{
+		padding:35px;
+		margin:60px;
+		font-size:64px;
+	}
+}
+
+
+*,*:after,*:before
+{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+
+}
+
+#form_box ul
+{
+	margin:0;
+  	padding: 0;
+  	list-style-type:none;
+}
+
+#form_box li
+{
+	position: relative;
+}
+
+#form_box h1
+{
+	display:block;
+	text-align: center;
+	background: #202223;
+	color:white;
+  	margin:0;
+    padding: 0.75em 0;
+  	font-weight: normal;
+  	border-radius:5px 5px 0 0;
+}
+
+#form_box form
+{
+  	border-radius:0 0 5px 5px;
+  	border:1px solid #ccc;
+  	border-top: none;
+  	background: #fff;
+  
+}
+
+#form_box ul li:not(:last-child)
+{
+	display:block;
+  	border-bottom:1px solid #ccc;
+  	margin-bottom: 1em;
+}
+
+#form_box label
+{
+	display:block;
+  	font-size: 18px; 
+    position: absolute;
+    top: .6em;
+    left: .8em;
+    color: #f1773b;
+    opacity: 1;
+  	transition:top 0.4s ease, opacity 0.6s ease , color 0.4s ease;
+}
+
+#form_box input,textarea
+{
+  	display:block;
+	width:100%;
+  	/*height:100%;*/
+ 	border:0;
+  	outline:none;
+  	padding:2.25em 1em 1em;
+  	font-size: 1.2em;
+  
+}
+
+#form_box textarea
+{
+	height:16em;
+  	resize:none;
+  	font-size: 1.2em;
+  	font-family: verdana;
+  	padding-left: 0.85em;
+}
+
+#form_box input[type="submit"]
+{
+  	display:block;
+	background:  #f1773b;
+  	padding: 1em;
+  	color:white;
+  	text-transform: uppercase;
+  	cursor:pointer;
+}
+
+#form_box .js-hide-label label
+{
+	opacity:0;
+  	top:1.8em;
+}
+
+#form_box .js-unhighlight-label label
+{
+	color:#333;
+}
+
+#form_box .js-highlight-label label
+{
+	color:#f1773b;
+}

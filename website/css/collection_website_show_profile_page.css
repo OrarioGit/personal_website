@@ -1,0 +1,79 @@
+.person_box
+{
+	background-color: #fff !important;
+	height: 100%;
+}
+
+.picture_box2
+{
+	height: 40%;
+	background-image: url(../images/back.jpg);
+}
+
+.person_box
+{
+	font-size: 28px;
+}
+
+.person_box img
+{
+	/*padding: 5% 10% 5% 10%;*/
+	/*background-image: url(../images/sea.jpg);*/
+	height: 100%;
+	/*-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);*/
+
+	clip-path: circle(50% at 50% 50%);
+}
+
+.intro_box
+{
+	padding: 5% 10% 10% 10%;
+	
+}
+
+.intro_box .intro_title
+{
+	padding-bottom: 2%;
+}
+
+.intro_box .intro_content
+{
+	font-family: 'Handlee',  cursive;
+	font-style: italic;
+	color: gray;
+	padding-top: 5%;
+}
+
+.foot_pic
+{
+	width: 100%;
+	height: 30%;
+	background-image: url(../images/back.jpg);
+}
+
+
+.shadow:hover
+{
+	box-shadow: 10px 2px 18px;
+}
+
+.floating:hover 
+{  
+    animation-name: floating;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating 
+{
+    from { transform: translate(0,  0px); }
+    to  { transform: translate(0, -3px); }
+}
+
+.text_title
+{
+	border-bottom: 2px solid;
+}
+
